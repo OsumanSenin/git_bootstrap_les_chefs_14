@@ -16164,6 +16164,7 @@ header #carouselExampleIndicators ol li {
 section:first-of-type {
   background-color: white;
   margin: 30px 10%;
+  border: 1px solid lightgrey;
 }
 section:first-of-type .container-fluid, section:first-of-type .container-sm, section:first-of-type .container-md, section:first-of-type .container-lg, section:first-of-type .container-xl {
   padding: 20px 200px;
