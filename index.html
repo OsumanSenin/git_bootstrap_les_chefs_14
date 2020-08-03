@@ -1,11 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LastProject</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./public/css/style.css">
+  <title>LastProject</title>
 </head>
+
 <body>
-  
+  <header>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+
+      <div class="collapse navbar-collapse  justify-content-around" id="navbarNav">
+        <ul class="navbar-nav border border-right-0 border-left-0 justify-content-around">
+          <li class="nav-item active">
+            <a class="nav-link uppercase text-white " href="#">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Home <span class="sr-only"></a>
+          </li>
+        </ul>
+
+        <img src="./public/img/logo.png" alt="">
+
+        <ul class="navbar-nav border border-right-0 border-left-0">
+
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#">Home <span class="sr-only"></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#">Home <span class="sr-only"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Disabled</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#">Home <span class="sr-only"></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container text-white d-flex flex-column ">
+            <div class=" d-flex justify-content-center">
+              <h2 class="pt-5 mr-2">whatever your</h3>
+                <h1 class="text-uppercase display-2">occasion</h1>
+            </div>
+            <div class="d-flex justify-content-center">
+              <h1 class="red display-2"><span class="text-danger text-uppercase">taste</span> makes</h1>
+              <h2 class="pt-5 pl-2">it one</h3>
+            </div>
+            <div class="d-flex justify-content-center">
+              <h2 class="pt-5 mr-2"> to</h3>
+                <h1 class="display-2">remember !</h1>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button type="button" class="btn btn-light btn-lg"><span class="uppercase ">purchase theme
+                </span></button>
+              <button type="button" class="btn btn-danger btn-lg ml-2">learn more</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container text-white d-flex flex-column ">
+            <div class=" d-flex justify-content-center">
+              <h2 class="pt-5 mr-2">whatever your</h3>
+                <h1 class="text-uppercase display-2">occasion</h1>
+            </div>
+            <div class="d-flex justify-content-center">
+              <h1 class="red display-2"><span class="text-danger text-uppercase">taste</span> makes</h1>
+              <h2 class="pt-5 pl-2">it one</h3>
+            </div>
+            <div class="d-flex justify-content-center">
+              <h2 class="pt-5 mr-2"> to</h3>
+                <h1 class="display-2">remember !</h1>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button type="button" class="btn btn-light btn-lg"><span class="uppercase ">purchase theme
+                </span></button>
+              <button type="button" class="btn btn-danger btn-lg ml-2">learn more</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container text-white d-flex flex-column ">
+            <div class=" d-flex justify-content-center">
+              <h2 class="pt-5 mr-2">whatever your</h3>
+                <h1 class="text-uppercase display-2">occasion</h1>
+            </div>
+            <div class="d-flex justify-content-center">
+              <h1 class="red display-2"><span class="text-danger text-uppercase">taste</span> makes</h1>
+              <h2 class="pt-5 pl-2">it one</h3>
+            </div>
+            <div class="d-flex justify-content-center">
+              <h2 class="pt-5 mr-2"> to</h3>
+                <h1 class="display-2">remember !</h1>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button type="button" class="btn btn-light btn-lg"><span class="uppercase ">purchase theme
+                </span></button>
+              <button type="button" class="btn btn-danger btn-lg ml-2">learn more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+
+                  <!-- finnalement fin du header  -->
+          <section>
+            <div class="d-flex justify-content-between">
+              <img src="./public/img/box-left-top.png"  alt="">
+              <div class="d-flex flex-column">
+              <span class="d-flex justify-content-center pt-2"><h1 class="text-uppercase text-danger mr-2">our</h1><h2 class="pt-2">Story</h2></span>
+              <img src="./public/img/decoration_line.png" alt="">
+              </div>
+
+              <img src="./public/img/box-right-top.png" alt="">
+            </div>
+               <div class="container-fluid">
+                      <p class="text-center">
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sed eos aliquid dolores, tempora necessitatibus dignissimos dicta veritatis, sapiente voluptas mollitia nihil ad ab recusandae consectetur, molestiae molestias adipisci sit consequatur quam impedit provident? Libero molestiae sapiente vero fugit doloribus odio, deserunt cum earum officiis neque enim aperiam eaque dicta?
+                      </p>
+                    </div>
+                    <div class="d-flex flex-column">
+                    <span class="d-flex justify-content-center pt-2"><h1 class="text-uppercase text-danger mr-2">our</h1><h2 class="pt-2">Menu List</h2></span>
+                    <img src="./public/img/decoration_line.png" alt="">
+                  </div>
+
+                  <div class="row">
+                    <div class="col-2">
+                          <div class="d-flex flex-column">
+                            <i class="fas fa-mug-hot "></i>
+                            <span>BreakFast</span>
+                          </div>
+                        </div>
+
+                    <div class="col-5 d-flex align-items-center">
+                      <img src="./public/img/menu_image_1.jpg" alt="" class="rounded-circle">
+                      <div class="container d-flex flex-column">
+                     <h5> Lorem ipsum dolor </h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet. ! </p>
+                    </div>
+                      <span class="px-3">25$</span>
+
+                    </div>
+                    <div class="col-5 d-flex align-items-center">
+                      <img src="./public/img/menu_image_1.jpg" alt="" class="rounded-circle">
+                      <div class="container d-flex flex-column">
+                     <h5> Lorem ipsum dolor </h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet. ! </p>
+                    </div>
+                      <span class="px-3">25$</span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-2">
+                          <div class="d-flex flex-column">
+                            <i class="fas fa-mug-hot "></i>
+                            <span>Lunch</span>
+                          </div>
+                        </div>
+
+                    <div class="col-5 d-flex align-items-center">
+                      <img src="./public/img/menu_image_1.jpg" alt="" class="rounded-circle">
+                      <div class="container d-flex flex-column">
+                     <h5> Lorem ipsum dolor </h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet. ! </p>
+                    </div>
+                      <span class="px-3">25$</span>
+
+                    </div>
+                    <div class="col-5 d-flex align-items-center">
+                      <img src="./public/img/menu_image_1.jpg" alt="" class="rounded-circle">
+                      <div class="container d-flex flex-column">
+                     <h5> Lorem ipsum dolor </h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet. ! </p>
+                    </div>
+                      <span class="px-3">25$</span>
+                    </div>
+                  </div> 
+                  <div class="row">
+                    <div class="col-2">
+                          <div class="d-flex flex-column">
+                            <i class="fas fa-mug-hot "></i>
+                            <span>Snacks</span>
+                          </div>
+                        </div>
+
+                    <div class="col-5 d-flex align-items-center">
+                      <img src="./public/img/menu_image_1.jpg" alt="" class="rounded-circle">
+                      <div class="container d-flex flex-column">
+                     <h5> Lorem ipsum dolor </h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet. ! </p>
+                    </div>
+                      <span class="px-3">25$</span>
+
+                    </div>
+                    <div class="col-5 d-flex align-items-center">
+                      <img src="./public/img/menu_image_1.jpg" alt="" class="rounded-circle">
+                      <div class="container d-flex flex-column">
+                     <h5> Lorem ipsum dolor </h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet. ! </p>
+                    </div>
+                      <span class="px-3">25$</span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-2">
+                          <div class="d-flex flex-column">
+                            <i class="fas fa-mug-hot "></i>
+                            <span>Dinner</span>
+                          </div>
+                        </div>
+
+                    <div class="col-5 d-flex align-items-center">
+                      <img src="./public/img/menu_image_1.jpg" alt="" class="rounded-circle">
+                      <div class="container d-flex flex-column">
+                     <h5> Lorem ipsum dolor </h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet. ! </p>
+                    </div>
+                      <span class="px-3">25$</span>
+
+                    </div>
+                    <div class="col-5 d-flex align-items-center">
+                      <img src="./public/img/menu_image_1.jpg" alt="" class="rounded-circle">
+                      <div class="container d-flex flex-column">
+                     <h5> Lorem ipsum dolor </h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet. ! </p>
+                    </div>
+                      <span class="px-3">25$</span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-2">
+                          <!-- <div class="d-flex flex-column">
+                            <i class="fas fa-mug-hot "></i>
+                            <span>BreakFast</span>
+                          </div> -->
+                        </div>
+
+                    <div class="col-5 d-flex align-items-center">
+                      <img src="./public/img/menu_image_1.jpg" alt="" class="rounded-circle">
+                      <div class="container d-flex flex-column">
+                     <h5> Lorem ipsum dolor </h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet. ! </p>
+                    </div>
+                      <span class="px-3">25$</span>
+
+                    </div>
+                    <div class="col-5 d-flex align-items-center">
+                      <img src="./public/img/menu_image_1.jpg" alt="" class="rounded-circle">
+                      <div class="container d-flex flex-column">
+                     <h5> Lorem ipsum dolor </h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet. ! </p>
+                    </div>
+                      <span class="px-3">25$</span>
+                    </div>
+                  </div>
+                  
+                        
+
+          </section>
+                  
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
+
 </html>
+
+
+

@@ -2,3 +2,92 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss"
 @import "./_font.sass"
 @import "./_icons.sass"
+
+
+
+
+body
+    background-image: url("../../public/img/main_bg.jpg")
+    font-family: ubuntu
+h1 , h2, h3
+    font-family: courgette
+
+header
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../../public/img/banner1.jpg")      
+    height: 900px
+    background-size: cover
+
+    
+    .navbar
+        ul
+            li
+                padding: 0 30px
+                &:hover
+                    background-color: $rouge
+                    // padding: 5px
+
+    .container
+        margin: 200px 150px
+        .btn
+            border-radius: 50px 
+       
+    #carouselExampleIndicators
+        ol
+            li
+                
+                border-radius: 100%
+                padding: 5px
+                width: 0
+                height: 0        
+
+section
+    &:first-of-type
+        background-color: white
+        margin: 30px 10%       
+        .container-fluid
+            padding: 20px 200px
+        
+        .row
+            // position: absolute
+            margin: 50px 50px
+            .col-2
+                margin-top: 20px 
+                border-bottom: 1px solid grey
+                &:hover
+                    border-right: solid 2px $red
+                    padding-top: 5px
+
+                    
+                div
+                    padding-top: 20px
+                    i   
+                        font-size: 50px
+                        margin-left: 15px
+                        &:hover
+                            color: $red
+                    span
+                        font-family: courgette
+                        font-size: 20px
+                        
+            .col-5
+                position: relative
+                top: 20px
+                border-bottom: dotted 0.5px grey
+                img
+                    height: 100px
+                    weight: 100px
+
+               
+                span
+
+                    font-weight: bold
+                    color: $red
+                    background-color: #929191
+                
+    
+            
+        
+            
+
+
+        
