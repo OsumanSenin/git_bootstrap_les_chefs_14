@@ -16209,4 +16209,15 @@ section:first-of-type .row .col-5 span {
   background-color: #929191;
 }
 
+section:nth-of-type(2) {
+  background-image: url("../../public/img/team_background.jpg");
+}
+section:nth-of-type(2) div h2 {
+  font-size: 60px;
+}
+section:nth-of-type(2) div span {
+  font-family: courgette;
+  font-size: 40px;
+}
+
 /*# sourceMappingURL=style.css.map */
