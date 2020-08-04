@@ -16220,4 +16220,41 @@ section:nth-of-type(2) div span {
   font-size: 40px;
 }
 
+section:nth-of-type(3) {
+  background-color: white;
+  margin: 30px 10%;
+  border: 1px solid lightgrey;
+}
+section:nth-of-type(3) .container-fluid, section:nth-of-type(3) .container-sm, section:nth-of-type(3) .container-md, section:nth-of-type(3) .container-lg, section:nth-of-type(3) .container-xl {
+  padding: 20px 200px;
+}
+section .form {
+  background-image: url("../../public/img/book_table_bg.jpg");
+  margin: 0 200px;
+  height: 500px;
+  border-radius: 10px;
+}
+section .form .container .row {
+  padding-top: 40px;
+  padding-right: 40px;
+}
+section .blog .col-6 img {
+  position: relative;
+  border-radius: 18px;
+  border: 5px solid grey;
+}
+section .blog .col-6 button {
+  position: absolute;
+  bottom: 65px;
+}
+section .blog .col-6 .lorem {
+  padding-left: 130px;
+  position: relative;
+  top: 50px;
+}
+section .rtn button {
+  border: none;
+  border-radius: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
