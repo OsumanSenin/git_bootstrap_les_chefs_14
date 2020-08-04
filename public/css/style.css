@@ -16129,6 +16129,7 @@ readers do not read off random characters that represent icons */
 }
 
 body {
+  margin: 0;
   background-image: url("../../public/img/main_bg.jpg");
   font-family: ubuntu;
 }
@@ -16141,6 +16142,9 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../public/img/banner1.jpg");
   height: 900px;
   background-size: cover;
+}
+header .logo-2 {
+  display: none;
 }
 header .navbar ul li {
   padding: 0 30px;
@@ -16288,6 +16292,38 @@ section:nth-of-type(4) .row .temoignage {
 }
 .milieu i {
   font-size: 30px;
+}
+
+footer {
+  background-image: url("../../public/img/team_background.jpg");
+}
+footer .icons {
+  margin: 10px;
+}
+footer .decoration {
+  background-image: url("../../public/img/footer_bottom_decoration_img.png");
+  background-repeat: repeat-x;
+}
+
+.last {
+  width: 100%;
+  height: 30px;
+}
+
+@media (max-width: 992px) {
+  header .logo-2 {
+    display: block;
+  }
+  header .navbar .collapse ul {
+    border: none !important;
+    display: flex;
+  }
+  header .navbar .collapse ul li {
+    align-items: center;
+  }
+  header .navbar .collapse .logo {
+    display: none !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

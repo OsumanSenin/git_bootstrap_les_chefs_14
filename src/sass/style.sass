@@ -7,6 +7,7 @@
 
 
 body
+    margin: 0
     background-image: url("../../public/img/main_bg.jpg")
     font-family: ubuntu
 h1 , h2, h3
@@ -16,7 +17,8 @@ header
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../../public/img/banner1.jpg")      
     height: 900px
     background-size: cover
-
+    .logo-2
+        display: none
     
     .navbar
         ul
@@ -174,3 +176,36 @@ section
     padding: 30px 
     i
         font-size: 30px  
+
+
+        // FOOOOOOOOTTEEEEEEER
+footer
+    background-image: url("../../public/img/team_background.jpg")  
+    .icons
+        i
+        margin: 10px
+    .decoration
+        background-image: url("../../public/img/footer_bottom_decoration_img.png")
+        background-repeat: repeat-x
+
+.last
+    width: 100%
+    height: 30px              
+
+
+
+@media (max-width: 992px)
+    header
+        .logo-2
+            display: block
+
+        .navbar
+            .collapse
+                ul
+                    border: none !important
+                    display: flex
+                    li
+                        align-items: center
+                .logo
+                    display: none !important   
+    
